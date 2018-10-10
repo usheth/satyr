@@ -18,6 +18,5 @@ setup(name='satyr',
                         else ''),
       install_requires=['cloudpickle', 'kazoo'],
       extras_require={'mesos': ['mesos.native']},
-      setup_requires=['pytest-runner'],
       tests_require=['pytest-mock', 'pytest'],
       zip_safe=False)
